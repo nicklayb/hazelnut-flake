@@ -19,7 +19,6 @@
     {
       self,
       nixpkgs,
-      home-manager,
       hazelnut-src,
       ...
     }:
@@ -40,7 +39,7 @@
         {
           hazelnut = pkgs.rustPlatform.buildRustPackage {
             pname = "hazelnut";
-            version = "unstable";
+            version = "0.3.0";
 
             src = hazelnut-src;
 
