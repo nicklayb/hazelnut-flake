@@ -1,0 +1,65 @@
+{
+  "nodes": {
+    "hazelnut-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1785702627,
+        "narHash": "sha256-rlt/WWbdm+LLGy69AFNIbPlfFCS5OYpLiOce6x4vrU8=",
+        "owner": "ricardodantas",
+        "repo": "hazelnut",
+        "rev": "72dac6de91be2fc1c1043efb22b62d4dcd4036e2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ricardodantas",
+        "repo": "hazelnut",
+        "type": "github"
+      }
+    },
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1791163078,
+        "narHash": "sha256-DiuwfdoZtEqVRsWuAhXcHa+cfvkr0t/xWW8ugkcxNyI=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "f53f3267f5d009dd8f99443505e609389d7ff267",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1791179034,
+        "narHash": "sha256-Ni0LBydzaCi8oek12r4mVreuFHqYlM1eTD6SfiENKfw=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "494ce7fd23ff6a5dff39e1fb11e9b6f2ac74bf25",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "hazelnut-src": "hazelnut-src",
+        "home-manager": "home-manager",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
